@@ -29,11 +29,14 @@ jobs:
 
       # Runs a single command using the runners shell
        
+      - name: nouveau etape
+        run: tessting command 
+      
+      
       - run: echo Hello, world from vscode !
         name: Run a one-line script
 
  
 
-      - name: nouveau etape
-        run: curl ipconfig.org
+     
         
